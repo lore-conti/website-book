@@ -1,0 +1,20 @@
+/* You can add custom styles here. */
+
+// @import "plugins/numbered";
+// @import "plugins/scrollbars";
+
+// Set container max width before importing the theme
+$container-max-width: 100vw;
+
+$menu-width: 16rem;      // 480px (30 × 16px)
+$toc-width: 20rem;       // 480px (30 × 16px)
+$body-min-width: 20rem;  // Increased to match
+
+
+@import "../themes/hugo-book/assets/main";
+
+// Increase font size of the Table of Contents (TOC)
+.book-toc,
+.book-toc * {
+  font-size: 14px !important;
+}
